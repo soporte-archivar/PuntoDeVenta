@@ -6,7 +6,7 @@ class Conexion{
 
 		$link = new PDO("mysql:host=monorail.proxy.rlwy.net;dbname=railway",
 			            "root",
-			            "");
+			            "YkUKmMeNiuiIjKiyvzlNMCmCIYxKudST");
 
 		$link->exec("set names utf8");
 
