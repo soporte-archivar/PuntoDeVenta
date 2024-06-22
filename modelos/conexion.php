@@ -4,7 +4,7 @@ class Conexion{
 
 	static public function conectar(){
 
-		$link = new PDO("mysql:host=monorail.proxy.rlwy.net;dbname=railway",
+		$link = new PDO("mysql:host=monorail.proxy.rlwy.net:11451;dbname=railway",
 			            "root",
 			            "YkUKmMeNiuiIjKiyvzlNMCmCIYxKudST");
 
